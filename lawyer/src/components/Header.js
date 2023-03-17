@@ -1,10 +1,8 @@
 /** @format */
-
-import { Container, Flex, Icon, Image } from "@chakra-ui/react";
+import { Container, Flex, Image } from "@chakra-ui/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { List, ListItem, Text } from "@chakra-ui/react";
-import {VscLaw} from 'react-icons/vsc'
 
 export const Header = () => {
   const router = useRouter();
@@ -27,12 +25,7 @@ export const Header = () => {
         <List
           display='flex'
           gridGap={2}
-          justifyContent={[
-            "space-around",
-            "space-around",
-            "space-around",
-            "flex-start",
-          ]}
+          justifyContent="space-around"
           w='100%'
           color='brand.100'>
           <ListItem className={currentRoute === "/" ? activeLink : ""}>
