@@ -1,12 +1,12 @@
 /** @format */
 import { useRouter } from "next/router";
 import { Divorce, Alimony } from "@/components/services/Divorce";
-import { Admin } from "@/components/services/admin";
+import { Admin } from "@/components/services/Admin";
 import { Contract } from "@/components/services/Contract";
 import { Victim } from "@/components/services/Victim";
 import { Housing } from "@/components/services/Housing";
 import { Inheritance } from "@/components/services/Inheritance";
-import { Landing } from "@/components/services/landing";
+import { Landing } from "@/components/services/Landing";
 import { Flex, Box } from "@chakra-ui/react";
 import { Sidebar } from "@/components/Sidebar";
 import { servList } from "@/components/ServList";

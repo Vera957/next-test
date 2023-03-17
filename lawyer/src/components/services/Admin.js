@@ -35,7 +35,6 @@ export const Admin = () => {
           порушення вимог до декларування товарів тощо.
         </ListItem>
       </UnorderedList>
-      <br />
     </Box>
   );
 };
