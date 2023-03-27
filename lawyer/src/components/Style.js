@@ -5,10 +5,11 @@ import {
 export const theme = extendTheme({
   colors: {
     brand: {
-      100: "#4D4D4D", 
-      200: "#B46060", 
-      300: "#FFBF9B",
-      400: "#FFF4E0",
+      100: "#4D4D4D", //#\ bl
+      200: "#DA0037", //# gr
+      300: "#444444", //#
+      400: "#171717", //#171717
+      500: "white",
     },
   },
   styles: {
@@ -17,20 +18,20 @@ export const theme = extendTheme({
         body: `'Raleway', sans-serif`,
       },
       "html, body": {
-        color: "brand.100",
+        color: "white",
         lineHeight: "tall",
         bg: "brand.400",
       },
-      "header": {
+      "header, footer": {
         bg: "brand.200",
-        color: "brand.400",
+        color: "brand.300",
       },
       a: {
         display: "flex",
         alignItems: "center",
         variants: {
           navi: {
-            color: "brand.400",
+            color: "brand.100",
           },
           pagelink: {
             color: "brand.300",

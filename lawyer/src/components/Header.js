@@ -32,7 +32,7 @@ export const Header = () => {
             "flex-start",
           ]}
           w='100%'
-          color='brand.400'>
+          color='brand.500'>
           <ListItem className={currentRoute === "/" ? activeLink : ""}>
             <Link href='/'>
               <Image
