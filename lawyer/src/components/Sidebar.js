@@ -4,7 +4,7 @@ import { List, ListItem, Box } from "@chakra-ui/react";
 import { servList } from "./ServList";
 import { useRouter } from "next/router";
 
-export const Sidebar = ({ props }) => {
+export const Sidebar = () => {
  
   const router = useRouter()
   return (

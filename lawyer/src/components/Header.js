@@ -24,10 +24,15 @@ export const Header = () => {
         color='brand.400'>
         <List
           display='flex'
-          gridGap={2}
-          justifyContent="space-around"
+          gridGap={[2, 4, 6]}
+          justifyContent={[
+            "space-around",
+            "space-around",
+            "space-around",
+            "flex-start",
+          ]}
           w='100%'
-          color='brand.100'>
+          color='brand.400'>
           <ListItem className={currentRoute === "/" ? activeLink : ""}>
             <Link href='/'>
               <Image

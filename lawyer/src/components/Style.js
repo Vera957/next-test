@@ -5,10 +5,10 @@ import {
 export const theme = extendTheme({
   colors: {
     brand: {
-      100: "#EDEDED", //#\ bl
-      200: "#DA0037", //# gr
-      300: "#444444", //#
-      400: "#171717",
+      100: "#4D4D4D", 
+      200: "#B46060", 
+      300: "#FFBF9B",
+      400: "#FFF4E0",
     },
   },
   styles: {
@@ -21,16 +21,16 @@ export const theme = extendTheme({
         lineHeight: "tall",
         bg: "brand.400",
       },
-      header: {
+      "header": {
         bg: "brand.200",
-        color: "brand.100",
+        color: "brand.400",
       },
       a: {
         display: "flex",
         alignItems: "center",
         variants: {
           navi: {
-            color: "brand.100",
+            color: "brand.400",
           },
           pagelink: {
             color: "brand.300",
