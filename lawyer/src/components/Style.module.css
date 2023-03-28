@@ -1,5 +1,8 @@
 .change {
-    animation: 10000ms alternate linear infinite opacity-change ;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-size: larger;
+    animation: 10000ms alternate linear infinite opacity-change;
 }
 
 @keyframes opacity-change {

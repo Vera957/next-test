@@ -16,7 +16,7 @@ export const Personal = () => {
             <Text textAlign='center'>
               Львівський Інститут внутрішніх справ при НАВС
             </Text>
-            <Text textAlign='center'>Більше 20 років юридичної практики</Text>
+            <Text textAlign='center' as='h1'>Більше 20 років юридичної практики</Text>
             <br/>
             <Image
               src='https://live.staticflickr.com/65535/52771384863_c42a86f5d6_z.jpg'

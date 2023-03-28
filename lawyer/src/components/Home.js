@@ -45,8 +45,8 @@ export const Home = () => {
           <Box
             p={[2, 4]}
             pos='absolute'
-            transform='translateY(-100%)'
             color='whiteAlpha.800'
+            transform='translate(20px, 20px)'
             w='320px'>
             <Text as='i' className={s.change}>
               {index}
