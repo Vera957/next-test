@@ -23,7 +23,7 @@ export const Contacts = () => {
         alignItems='center'
         justifyContent='center'
         centerContent
-        pt={["50px", "75px"]}>
+      >
         <Text as='h1' m={[2, 4]} textAlign='center'>
           Зв'яжіться з нами для отримання юридичної допомоги любим доступним
           методом:

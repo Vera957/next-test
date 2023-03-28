@@ -46,7 +46,14 @@ export const Home = () => {
             p={[2, 4]}
             pos='absolute'
             color='whiteAlpha.800'
-            transform='translate(20px, 20px)'
+            transform={[
+              "translateY(-100%)",
+              "translateY(-100%)",
+              "translateY(-100%)",
+              "translateY(-100%)",
+              "translate(20px, 20px)",
+              "translate(20px, 20px)",
+            ]}
             w='320px'>
             <Text as='i' className={s.change}>
               {index}
