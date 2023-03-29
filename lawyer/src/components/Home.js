@@ -52,7 +52,6 @@ export const Home = () => {
               "translateY(-100%)",
               "translateY(-100%)",
               "translate(20px, 20px)",
-              "translate(20px, 20px)",
             ]}
             w='320px'>
             <Text as='i' className={s.change}>
